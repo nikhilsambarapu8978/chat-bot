@@ -8,7 +8,7 @@ const regenerateBtn = document.querySelector("#regenerate-btn");
 let userMessage = null;
 const inputInitHeight = chatInput.scrollHeight;
 
-const API_KEY = "AIzaSyCNCa2K0vhJshlOwvs9dy0OFR54qhN0Mic";
+const API_KEY = "YOUR_API_KEY";
 const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
 
 const createChatLi = (message, className) => {
